@@ -1,0 +1,64 @@
+.section{
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)),url('../static/background-main.png');
+  background-repeat: no-repeat,no-repeat;
+  background-position: center, center;
+  background-size: cover,cover;
+  min-height: 100vh;
+  width:100%;
+  color: white;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.navbar{
+  width: 288px;
+}
+
+.main{
+  height: 100vh;
+}
+
+.top{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 10px;
+  justify-content: space-between;
+}
+
+.AllCards{
+  color: #F7F9F9;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+  height: calc(100vh - 135px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  margin-bottom: 74px;
+}
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+.footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  height:68px;
+  width: 100%;
+  background-color: #F30050;
+  z-index:10;
+}
+
+@media (max-width:800px) {
+  .navbar{
+      display: none;
+  }
+}

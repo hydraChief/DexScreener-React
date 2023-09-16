@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 100vh;
+    border-radius: 0px 32px 32px 0px;
+    background: #292929;
+}
+
+.nav-logo{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Pacifico;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-logo-fig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 24px;
+}
+
+.nav-logo-img{
+    width: 25.333px;
+    height: 29.333px;
+}
+
+.nav-elements{
+    height:max-content;
+    width:100%;
+}
+
+.nav-element{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding:0px 30px;
+    gap:30px;
+    width: 288px;
+    height: 65px;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 24px;
+}
+.nav-element p{
+    display:flex;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+}
+
+.nav-tokken,.nav-pair{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.nav-tokken:hover,.nav-pair:hover{
+    background-color: #F30050;
+    cursor: pointer;
+}
+
+.nav-tokken:active,.nav-pair:active{
+    background-color: #F30050;
+}

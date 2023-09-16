@@ -1,0 +1,67 @@
+.cards{
+    color: #F5F5F5;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 279px;
+    height: 188px;
+    border-radius: 10px;
+    background: #390554;
+    padding: 30px;
+    line-height:25px;
+    position: relative;
+}
+
+.heading{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.card-content  tbody tr td{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    width: max-content;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.ans{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.ans span{
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;-webkit-word-wrap:break-word;
+}
+
+.card-type{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background: #960252;
+    border-radius: 50%;
+    bottom: 15px;
+    right: 15px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background: rgba(232, 232, 232, 0.60);
+    align-self: center;
+    justify-self:center;
+}
