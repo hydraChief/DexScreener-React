@@ -34,3 +34,9 @@
     flex-direction: row;
     cursor: pointer;
 }
+
+@media (max-width:400px) {
+    .searchbar{
+      width: 300px;
+    }
+  }
