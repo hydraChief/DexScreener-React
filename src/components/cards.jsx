@@ -70,7 +70,7 @@ function Cards(props){
                             </tr>
                             <tr>
                                 <td>Address</td>
-                                <td className='ans'>: {props.data.quoteToken.address}</td>
+                                <td className='ans longAns'>:<span className='longAddress'>{props.data.quoteToken.address}</span></td>
                             </tr>                 
                         </tbody>
                     </table>
